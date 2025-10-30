@@ -51,8 +51,8 @@ map = folium.Map([53.8677, 10.68508], zoom_start=12)
 for _, row in stations.iterrows():
     folium.Marker(
         [row["geogrBreite"], row["geogrLaenge"]],
-        popup=f"{row["pegelName"]} (Nummer {row["pegelNummer"]})",
-        tooltip=f"{row["pegelName"]} (Nummer {row["pegelNummer"]})",
+        popup=f"{row['pegelName']} (Nummer {row['pegelNummer']})",
+        tooltip=f"{row['pegelName']} (Nummer {row['pegelNummer']})",
         icon=folium.Icon(icon="tint"),
     ).add_to(map)
 
