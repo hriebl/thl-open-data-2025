@@ -25,7 +25,7 @@ try:
     stadtteile = st.multiselect(
         label="Wähle Stadtteile",
         options=list(df.index.unique()),
-        default=["Innenstadt", "Moisling"],
+        default=["Innenstadt"],
     )
 
     if not stadtteile:
@@ -36,9 +36,9 @@ try:
 
         chart = (
             alt.Chart(df)
-            .mark_point()
+            .mark_line()
             .encode(
-                x=alt.X("stichtag", title="Zeitachse"),
+                x=alt.X("stichtag", title="Stichtag"),
                 y=alt.Y("einwohner", title="Einwohner"),
                 color=alt.Color("stadtteil_name", title="Stadtteil"),
             )
