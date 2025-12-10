@@ -4,11 +4,12 @@ Code examples for the open data hackathon 2025 at TH Lübeck
 
 ### Apps
 
-| App                      | Link |
-| :----------------------- | :--- |
-| Einwohner                | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thl-open-data-2025-z7gxrtyvepkb8hpzg3qckh.streamlit.app) |
-| Wasserstand (Vorlesung)  | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thl-open-data-2025-6era47fek49vuqy5ecb9mb.streamlit.app) |
-| Wasserstand (verbessert) | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thl-open-data-2025-jhjsaxrvahcq7xr5app6p63.streamlit.app) |
+| App                       | Link |
+| :------------------------ | :--- |
+| Einwohner                 | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thl-open-data-2025-z7gxrtyvepkb8hpzg3qckh.streamlit.app) |
+| Wasserstand (Vorlesung)   | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thl-open-data-2025-6era47fek49vuqy5ecb9mb.streamlit.app) |
+| Wasserstand (verbessert)  | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thl-open-data-2025-jhjsaxrvahcq7xr5app6p63.streamlit.app) |
+| Autoregressive Zeitreihen | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://thl-open-data-2025-yadf3rvavfljtxbpmfp2ut.streamlit.app) |
 
 ### How to run it on your own machine
 
